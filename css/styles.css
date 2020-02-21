@@ -76,3 +76,34 @@
   background-color: transparent;
 }
 /*PORTFOLIO ENDS*/
+/*CONTACT STARTS*/
+.contact h2
+{
+  color: white;
+  text-align: center;
+}
+.contact
+{
+  background-image: url('../images/background_images/c_image.jpg');
+
+}
+.form-control
+{
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 0;
+  height: 300px;
+}
+.form-control input
+{
+  background-color: transparent;
+  color: white;
+  margin-left: 130%;
+}
+.col-sm-3 textarea
+{
+  margin-left: 250px;
+  background-color: transparent;
+  color: white;
+}
+/*CONTACT ENDS*/
