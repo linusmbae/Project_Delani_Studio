@@ -57,9 +57,10 @@
 }
 .what
 {
-  margin-left: 55px;
+  margin-left: 155px;
   margin-right: 55px;
 }
+
 
 /*WHAT WE DO ENDS*/
 /*PORTFOLIO STARTS*/
@@ -75,6 +76,10 @@
 .jumbotron
 {
   background-color: transparent;
+}
+.back_color
+{
+  background-color: white;
 }
 /*PORTFOLIO ENDS*/
 /*CONTACT STARTS*/
