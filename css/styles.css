@@ -52,6 +52,27 @@
 .what h2
 {
     text-align: center;
-    
+
 }
+.what
+{
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
 /*WHAT WE DO ENDS*/
+/*PORTFOLIO STARTS*/
+.jumbotron img
+{
+  height: 280px;
+  width: 280px;
+}
+.jumbotron h2
+{
+  text-align: center;
+}
+.jumbotron
+{
+  background-color: transparent;
+}
+/*PORTFOLIO ENDS*/
