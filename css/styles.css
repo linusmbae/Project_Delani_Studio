@@ -23,5 +23,27 @@
 .about
 {
   text-align: center;
+  margin-top: 15px;
 }
 /*ABOUT END*/
+
+/*SERVICES START*/
+.service
+{
+  background-repeat: no-repeat;
+  background-image: url('../images/background_images/s_image.jpg');
+
+
+}
+.service h1
+{
+  text-align: center;
+  color: white;
+}
+.service p
+{
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+/*SERVICES END*/
