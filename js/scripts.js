@@ -1,25 +1,21 @@
 $(document).ready(function(){
-
+/*what we do toogle starts*/
   $('.clickable').click(function(){
-      $("#show1").toggle();
-      $("#hide1").toggle();
+      $("#show1").toggle(800);
+      $("#hide1").toggle(800);
     });
 
 
     $('.clickable1').click(function(){
-        $("#show2").toggle();
-        $("#hide2").toggle();
+        $("#show2").toggle(800);
+        $("#hide2").toggle(800);
       });
+
       $('.clickable2').click(function(){
-          $("#show3").toggle();
-          $("#hide3").toggle();
+          $("#show3").toggle(800);
+          $("#hide3").toggle(800);
         });
-  $(".portfolio .jumbotron .row #moja img").hover(function(){
-    $("#moja .dis1").slideUp();
-
-  });
-  $(".portfolio .jumbotron .row #mbili img").hover(function(){
-    $("#mbili .dis2").slideUp();
-
-  });
+  /*what we do toogle ends*/
+  /*portfolio effects starts*/
+  /*portfolio effects ends*/
 });

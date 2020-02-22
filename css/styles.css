@@ -91,14 +91,114 @@
 {
   background-color: white;
 }
-.dis
+  /*first hover*/
+.display1
 {
-  border: solid black;
-  width: 150px;
-  margin-left: 40px;
-  background-color: black;
-  display: none;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
 }
+.display1 h6
+{
+  color: blue;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.portfolio .jumbotron .row #first:hover .display1 {
+  opacity: 1;
+}
+/*first hover ends*/
+/*second hover*/
+.display2
+{
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.display2 h6
+{
+  color: blue;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.portfolio .jumbotron .row #second:hover .display2 {
+  opacity: 1;
+}
+/*second hover ends*/
+/*third hover*/
+.display3
+{
+position: absolute;
+bottom: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: white;
+}
+.display3 h6
+{
+color: blue;
+font-size: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.portfolio .jumbotron .row #third:hover .display3 {
+opacity: 1;
+}
+/*third hover ends*/
+/*fourth hover*/
+.display4
+{
+position: absolute;
+bottom: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: white;
+}
+.display4 h6
+{
+color: blue;
+font-size: 40px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.portfolio .jumbotron .row #fourth:hover .display4 {
+opacity: 1;
+}
+/*fourth hover ends*/
 /*PORTFOLIO ENDS*/
 /*CONTACT STARTS*/
 .contact h2
