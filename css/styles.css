@@ -57,9 +57,10 @@
 }
 .what
 {
-  margin-left: 155px;
-  margin-right: 55px;
+  margin-left: 255px;
+  width: auto;
 }
+
 #show1
 {
   display: none;

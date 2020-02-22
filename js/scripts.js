@@ -1,3 +1,4 @@
+/*jquery starts*/
 $(document).ready(function(){
 /*what we do toogle starts*/
   $('.clickable').click(function(){
@@ -18,10 +19,34 @@ $(document).ready(function(){
   /*what we do toogle ends*/
 
 });
+/*jquery ends*/
 /*javascript starts*/
   function myFunction()
   {
-    var name=document.getElementById("names").value;
-    alert(name+" we have received your message. Thank you fro reaching out to us. ");
+/*check input validity*/
+    var message=document.getElementById("message").value;
+    var checkName = document.getElementById("names").value;
+    var checkEmail = document.getElementById("email").value;
+        if (checkName == "")
+           {
+              alert("Name must be filled out");
+              return false;
+           }
+          else if (checkEmail == "")
+          {
+              alert("Email must be filled out");
+              return false;
+          }
+          else if (message == "")
+          {
+              alert("please write a message");
+              return false;
+          }
+          else
+          {
+            alert(checkName+" we have received your message. Thank you for reaching out to us. ");
+          }
+
+
   };
 /*javascript ends*/
