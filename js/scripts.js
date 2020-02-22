@@ -16,6 +16,12 @@ $(document).ready(function(){
           $("#hide3").toggle(800);
         });
   /*what we do toogle ends*/
-  /*starts*/
-  /*ends*/
+
 });
+/*javascript starts*/
+  function myFunction()
+  {
+    var name=document.getElementById("names").value;
+    alert(name+" we have received your message. Thank you fro reaching out to us. ");
+  };
+/*javascript ends*/
