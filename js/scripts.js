@@ -1,14 +1,25 @@
 $(document).ready(function(){
-  $(".what .col-sm-3").click(function(){
-    $(".col-sm-3 h3").toggle();
-    $(".col-sm-3 p").toggle();
+
+  $('.clickable').click(function(){
+      $("#show1").toggle();
+      $("#hide1").toggle();
+    });
+
+
+    $('.clickable1').click(function(){
+        $("#show2").toggle();
+        $("#hide2").toggle();
+      });
+      $('.clickable2').click(function(){
+          $("#show3").toggle();
+          $("#hide3").toggle();
+        });
+  $(".portfolio .jumbotron .row #moja img").hover(function(){
+    $("#moja .dis1").slideUp();
+
   });
-  $(".what .col-sm-4").click(function(){
-    $(".col-sm-4 h3").toggle();
-    $(".col-sm-4 p").toggle();
-  });
-  $(".what .col-sm-5").click(function(){
-    $(".col-sm-5 h3").toggle();
-    $(".col-sm-5 p").toggle();
+  $(".portfolio .jumbotron .row #mbili img").hover(function(){
+    $("#mbili .dis2").slideUp();
+
   });
 });

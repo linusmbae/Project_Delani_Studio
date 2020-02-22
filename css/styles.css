@@ -60,8 +60,18 @@
   margin-left: 155px;
   margin-right: 55px;
 }
-
-
+#show1
+{
+  display: none;
+}
+#show2
+{
+  display: none;
+}
+#show3
+{
+  display: none;
+}
 /*WHAT WE DO ENDS*/
 /*PORTFOLIO STARTS*/
 .jumbotron img
@@ -80,6 +90,14 @@
 .back_color
 {
   background-color: white;
+}
+.dis
+{
+  border: solid black;
+  width: 150px;
+  margin-left: 40px;
+  background-color: black;
+  display: none;
 }
 /*PORTFOLIO ENDS*/
 /*CONTACT STARTS*/
