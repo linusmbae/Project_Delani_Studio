@@ -371,6 +371,22 @@ opacity: 1;
   background-color: transparent;
   color: white;
 }
+::placeholder
+{
+  color: white;
+}
+#myrow1
+{
+
+  width: 50%;
+  margin-left: 13%;
+}
+#myrow2
+{
+  margin-left: 560px;
+  margin-top: -30px;
+  width: 50%;
+}
 .btn-success
 {
   margin-left: 550px;

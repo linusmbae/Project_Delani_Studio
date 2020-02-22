@@ -16,6 +16,6 @@ $(document).ready(function(){
           $("#hide3").toggle(800);
         });
   /*what we do toogle ends*/
-  /*portfolio effects starts*/
-  /*portfolio effects ends*/
+  /*starts*/
+  /*ends*/
 });

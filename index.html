@@ -20,7 +20,8 @@
 
                   <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h5>
                   <br>
-                  <img src="images/mouse_click.png" alt="mouse_click">
+
+                  <a href="#abou"><img src="images/mouse_click.png" alt="mouse_click"></a>
                   <br>
                   <br>
                   <br>
@@ -30,7 +31,7 @@
        </div>
    <!--welcome page ends-->
    <!--about page starts-->
-       <div class="about">
+       <div class="about" id="abou">
             <h1>ABOUT US</h1>
             <p>
                 When you work with us, you are part of team commited collaborators.AlL aspects of Our
@@ -176,19 +177,21 @@
               <br>
               <h2>CONTACT US</h2>
               <form class="form-control">
-                    <div class="row">
+                    <div class="row" id="myrow1">
+                      <div class="col-sm-3">
+                         <input type="text" name="name" placeholder="Name...">
+                      </div>
+                    </div>
+                    <div class="row" id="myrow2">
                         <div class="col-sm-3">
-                           <input type="text" name="name" value="Name...">
-                        </div>
-                        <div class="col-sm-4">
-                            <input type="text" name="email" value="Email...">
+                            <input type="text" name="email" placeholder="Email...">
                         </div>
                     </div>
                     <br>
                     <br>
                     <div class="row">
                       <div class="col-sm-3">
-                        <textarea name="name" rows="8" cols="80">Your message here...</textarea>
+                        <textarea name="name" rows="8" cols="80" placeholder="Your message here..."></textarea>
                       </div>
                     </div>
               </form>
