@@ -410,3 +410,117 @@ opacity: 1;
   text-align: center;
 }
 /*FOOTER ENDS*/
+/*@MEDIA SCREEN STARTS*/
+@media only screen and (min-width:480px) and (max-width:769px)
+{
+
+  #image .row .content
+  {
+    margin-left: 90px;
+  }
+  /*WHAT WE DO STARTS*/
+  .what
+  {
+    margin-left: 0;
+  }
+  .what .row
+  {
+    text-align: center;
+  }
+  .what .row img
+  {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  /*WHAT WE DO ENDS*/
+  /*PORTFOLIO STARTS*/
+  .portfolio
+  {
+    text-align: center;
+  }
+  .portfolio .jumbotron .row .display1
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display2
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display3
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display4
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display5
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display6
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display7
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  .portfolio .jumbotron .row .display8
+  {
+    width: 150px;
+    margin-left: 140px;
+  }
+  /*PORTFOLIO ENDS*/
+  /*CONTACT STARTS*/
+  .jumbotron .contact .form-control
+  {
+    text-align: center;
+    height: auto;
+  }
+  .jumbotron .contact .form-control #myrow1 input
+  {
+    margin-left: -35px;
+  }
+  .jumbotron .contact .form-control #myrow2 input
+  {
+    margin-left: -965px;
+    margin-top: 50px;
+  }
+  .jumbotron .contact .form-control textarea
+  {
+    margin-left: 0px;
+    margin-top: 0;
+    width: 400px;
+  }
+  .jumbotron .contact .form-control .btn-success
+  {
+    margin-left: -50px;
+  }
+  /*CONTACT ENDS*/
+  /*FOOTER STARTS*/
+  .card-footer .row
+  {
+    margin-left: 0;
+    text-align: center;
+    width: auto;
+  }
+  .card-footer .row img
+  {
+    height: 30px;
+    width: 30px;
+  }
+  .card-footer .row .col-sm-1
+  {
+    width: auto;
+  }
+  /*FOOTER ENDS*/
+}
+/*@MEDIA SCREEN ENDS*/
