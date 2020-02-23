@@ -1,5 +1,13 @@
 /*jquery starts*/
 $(document).ready(function(){
+  /*animation effect starts*/
+  $("#image .row .content #clickMe")
+  .slideUp(2000).slideDown(2000)
+  .slideUp(2000).slideDown(2000)
+  .slideUp(2000).slideDown(2000)
+  .slideUp(2000).slideDown(2000)
+  .slideUp(2000).slideDown(2000);
+  /*animation effect ends*/
 /*what we do toogle starts*/
   $('.clickable').click(function(){
       $("#show1").toggle(800);
