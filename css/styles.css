@@ -53,7 +53,25 @@
 .what h2
 {
     text-align: center;
+    margin-left: -255px;
 
+}
+.what h3
+{
+  margin-left: -20px;
+}
+.what .row #left
+{
+margin-left: -5px;
+}
+.what .row #center
+{
+margin-left: -35px;
+margin-top: 10px;
+}
+.what .row #right
+{
+margin-left: -75px;
 }
 .what
 {
